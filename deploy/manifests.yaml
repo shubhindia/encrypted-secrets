@@ -375,9 +375,6 @@ spec:
           initialDelaySeconds: 15
           periodSeconds: 20
         name: manager
-        env:
-          - name: KEYPHRASE
-            value: '7vpwfEAtuC5vawuVm9CjK514sncLNL0YJUHdwIvc'
         readinessProbe:
           httpGet:
             path: /readyz
